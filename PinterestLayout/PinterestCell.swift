@@ -188,7 +188,7 @@ extension PinterestCell {
             multiplier: 1,
             constant: PinterestCell.annotationPadding
         )
-        bottomConstraint.priority = 750
+        bottomConstraint.priority = .defaultHigh
         roundedCornersView.addConstraint(bottomConstraint)
     }
 }
